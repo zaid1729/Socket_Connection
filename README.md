@@ -15,12 +15,12 @@ There are some procedures that we have to follow to establish client-server comm
 
 * Socket: With the help of a socket, we can create a new communication.
 * Bind: With the help of this we can, we can attach the local address with the socket.
-Listen: With this help; we can accept the connection.
-Accept: With this help; we can block the incoming connection until the request arrives.
-Connect: With this help; we can attempt to establish the connection.
-Send: With the help of this; we can send the data over the network.
-Receive: With this help; we can receive the data over the network.
-Close: With the help of this, we can release the connection from the network.
+* Listen: With this help; we can accept the connection.
+* Accept: With this help; we can block the incoming connection until the request arrives.
+* Connect: With this help; we can attempt to establish the connection.
+* Send: With the help of this; we can send the data over the network.
+* Receive: With this help; we can receive the data over the network.
+* Close: With the help of this, we can release the connection from the network.
 
 
 
