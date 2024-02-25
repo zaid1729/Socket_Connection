@@ -22,6 +22,17 @@ There are some procedures that we have to follow to establish client-server comm
 * Receive: With this help; we can receive the data over the network.
 * Close: With the help of this, we can release the connection from the network.
 
+## Stages for Server Socket Creation
+
+There are some stages by which we can create the socket for the server. These are as follows : 
+
+* int socketcr: Socket(domain, type, protocol).
+* Socketcr: It is an integer type, and it is like a file handler.
+* Domain: It is a communication domain and it is an integer type.
+* Type:It is a communication type.
+* SOCK_DGRAM: It is a type of UDP which is unreliable and connectionless.
+5* Protocol: It is used to assign the protocol value for the IP address, which is 0. The protocol value is similar to the value appearing in the protocol field of the IP header of the pocket.
+
 
 
 
