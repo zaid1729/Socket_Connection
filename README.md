@@ -37,6 +37,7 @@ There are some stages by which we can create the socket for the server. These ar
 ## Compiling:
 
     gcc client.c -o client
+    
     gcc server.c -o server
 
 
