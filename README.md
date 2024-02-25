@@ -34,5 +34,11 @@ There are some stages by which we can create the socket for the server. These ar
 6. Protocol: It is used to assign the protocol value for the IP address, which is 0. The protocol value is similar to the value appearing in the protocol field of the IP header of the pocket.
 
 
+## Compiling:
+
+  gcc client.c -o client
+
+  gcc server.c -o server
+
 
 
