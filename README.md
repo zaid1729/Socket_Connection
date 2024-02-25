@@ -31,7 +31,7 @@ There are some stages by which we can create the socket for the server. These ar
 * Domain: It is a communication domain and it is an integer type.
 * Type:It is a communication type.
 * SOCK_DGRAM: It is a type of UDP which is unreliable and connectionless.
-5* Protocol: It is used to assign the protocol value for the IP address, which is 0. The protocol value is similar to the value appearing in the protocol field of the IP header of the pocket.
+*5 Protocol: It is used to assign the protocol value for the IP address, which is 0. The protocol value is similar to the value appearing in the protocol field of the IP header of the pocket.
 
 
 
