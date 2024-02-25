@@ -42,10 +42,10 @@ There are some stages by which we can create the socket for the server. These ar
 
 ## Output:
 
-` Client : Hello message sent 
-  Hello from server 
-  Server : Hello from client 
-  Hello message sent `
+` Client : Hello message sent. 
+  Hello from server. 
+  Server : Hello from client. 
+  Hello message sent. `
 
 
 
