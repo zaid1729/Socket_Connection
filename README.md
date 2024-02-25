@@ -13,8 +13,8 @@ In C++, socket programming is a method that combines two or more nodes with each
 
 There are some procedures that we have to follow to establish client-server communication. These are as follows.
 
-Socket: With the help of a socket, we can create a new communication.
-Bind: With the help of this we can, we can attach the local address with the socket.
+* Socket: With the help of a socket, we can create a new communication.
+* Bind: With the help of this we can, we can attach the local address with the socket.
 Listen: With this help; we can accept the connection.
 Accept: With this help; we can block the incoming connection until the request arrives.
 Connect: With this help; we can attempt to establish the connection.
