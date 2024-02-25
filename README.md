@@ -13,25 +13,25 @@ In C++, socket programming is a method that combines two or more nodes with each
 
 There are some procedures that we have to follow to establish client-server communication. These are as follows.
 
-* Socket: With the help of a socket, we can create a new communication.
-* Bind: With the help of this we can, we can attach the local address with the socket.
-* Listen: With this help; we can accept the connection.
-* Accept: With this help; we can block the incoming connection until the request arrives.
-* Connect: With this help; we can attempt to establish the connection.
-* Send: With the help of this; we can send the data over the network.
-* Receive: With this help; we can receive the data over the network.
-* Close: With the help of this, we can release the connection from the network.
+1. Socket: With the help of a socket, we can create a new communication.
+2. Bind: With the help of this we can, we can attach the local address with the socket.
+3. Listen: With this help; we can accept the connection.
+4. Accept: With this help; we can block the incoming connection until the request arrives.
+5. Connect: With this help; we can attempt to establish the connection.
+6. Send: With the help of this; we can send the data over the network.
+7. Receive: With this help; we can receive the data over the network.
+8. Close: With the help of this, we can release the connection from the network.
 
 ## Stages for Server Socket Creation
 
 There are some stages by which we can create the socket for the server. These are as follows : 
 
-* int socketcr: Socket(domain, type, protocol).
-* Socketcr: It is an integer type, and it is like a file handler.
-* Domain: It is a communication domain and it is an integer type.
-* Type:It is a communication type.
-* SOCK_DGRAM: It is a type of UDP which is unreliable and connectionless.
-*5 Protocol: It is used to assign the protocol value for the IP address, which is 0. The protocol value is similar to the value appearing in the protocol field of the IP header of the pocket.
+1. int socketcr: Socket(domain, type, protocol).
+2. Socketcr: It is an integer type, and it is like a file handler.
+3. Domain: It is a communication domain and it is an integer type.
+4. Type:It is a communication type.
+5. SOCK_DGRAM: It is a type of UDP which is unreliable and connectionless.
+6. Protocol: It is used to assign the protocol value for the IP address, which is 0. The protocol value is similar to the value appearing in the protocol field of the IP header of the pocket.
 
 
 
